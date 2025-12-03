@@ -8,7 +8,7 @@
     {
       "number": 1,
       "title": "Navigate to SQL Workbench",
-      "description": "Click on 'SQL' in the left navigation menu, then select 'Workbench' to access the SQL editor.",
+      "description": "Click on 'SQL' in the left navigation menu, then select 'Workbench' to access the SQL editor. Test adding content",
       "selector": "a[href*='sql/workbench']"
     },
     {
