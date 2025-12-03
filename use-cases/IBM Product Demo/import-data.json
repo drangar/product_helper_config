@@ -1,0 +1,51 @@
+{
+  "id": "import-data",
+  "name": "Import Data from File",
+  "description": "Upload and import data from CSV or Excel files",
+  "product": "IBM Product Demo",
+  "version": "1.0.0",
+  "steps": [
+    {
+      "number": 1,
+      "title": "Navigate to Import Tool",
+      "description": "Go to the Data menu and select Import Data.",
+      "selector": "nav a[href*='import']"
+    },
+    {
+      "number": 2,
+      "title": "Choose File Type",
+      "description": "Select the type of file you want to import (CSV, Excel, JSON).",
+      "selector": "select[name='file-type']"
+    },
+    {
+      "number": 3,
+      "title": "Upload File",
+      "description": "Click the Upload button and select your file from your computer.",
+      "selector": "input[type='file']"
+    },
+    {
+      "number": 4,
+      "title": "Map Columns",
+      "description": "Match the columns in your file to the corresponding fields in the system.",
+      "selector": ".column-mapping-table"
+    },
+    {
+      "number": 5,
+      "title": "Preview Data",
+      "description": "Review the data preview to ensure it looks correct before importing.",
+      "selector": ".data-preview-panel"
+    },
+    {
+      "number": 6,
+      "title": "Start Import",
+      "description": "Click the Import button to begin processing the data.",
+      "selector": "button.start-import"
+    },
+    {
+      "number": 7,
+      "title": "Monitor Progress",
+      "description": "Watch the progress bar and wait for the import to complete.",
+      "selector": ".import-progress"
+    }
+  ]
+}

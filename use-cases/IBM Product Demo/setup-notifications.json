@@ -1,0 +1,45 @@
+{
+  "id": "setup-notifications",
+  "name": "Configure Email Notifications",
+  "description": "Set up email alerts for important system events",
+  "product": "IBM Product Demo",
+  "version": "1.0.0",
+  "steps": [
+    {
+      "number": 1,
+      "title": "Open Notification Settings",
+      "description": "Navigate to Settings and select the Notifications tab.",
+      "selector": "nav a[href*='settings'] .notifications-tab"
+    },
+    {
+      "number": 2,
+      "title": "Enable Email Notifications",
+      "description": "Toggle the email notifications switch to ON.",
+      "selector": "input[type='checkbox'][name='email-enabled']"
+    },
+    {
+      "number": 3,
+      "title": "Select Event Types",
+      "description": "Choose which events should trigger email notifications.",
+      "selector": ".event-types-list input[type='checkbox']"
+    },
+    {
+      "number": 4,
+      "title": "Set Email Recipients",
+      "description": "Add email addresses that should receive notifications.",
+      "selector": "input[name='recipient-email']"
+    },
+    {
+      "number": 5,
+      "title": "Test Notification",
+      "description": "Send a test email to verify the configuration is working.",
+      "selector": "button.test-notification"
+    },
+    {
+      "number": 6,
+      "title": "Save Configuration",
+      "description": "Click Save to apply your notification settings.",
+      "selector": "button.save-notifications"
+    }
+  ]
+}

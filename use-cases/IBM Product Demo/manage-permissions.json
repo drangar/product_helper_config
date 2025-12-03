@@ -1,0 +1,33 @@
+{
+  "id": "manage-permissions",
+  "name": "Manage User Permissions",
+  "description": "Guide to managing and updating user permissions and access levels",
+  "product": "IBM Product Demo",
+  "version": "1.0.0",
+  "steps": [
+    {
+      "number": 1,
+      "title": "Access Permissions Panel",
+      "description": "Navigate to the permissions management section from the main menu.",
+      "selector": "nav a[href*='permissions']"
+    },
+    {
+      "number": 2,
+      "title": "Select User",
+      "description": "Choose the user whose permissions you want to modify from the user list.",
+      "selector": ".user-list .user-item"
+    },
+    {
+      "number": 3,
+      "title": "Update Permissions",
+      "description": "Check or uncheck the permission boxes to grant or revoke access to specific features.",
+      "selector": ".permissions-grid input[type='checkbox']"
+    },
+    {
+      "number": 4,
+      "title": "Save Changes",
+      "description": "Click the Save button to apply the permission changes.",
+      "selector": "button.save-permissions"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "create-user",
+  "name": "Create New User",
+  "description": "Step-by-step guide to create a new user in the system",
+  "product": "IBM Product Demo",
+  "version": "1.0.0",
+  "steps": [
+    {
+      "number": 1,
+      "title": "Navigate to User Management",
+      "description": "Click on the 'Users' menu item in the left navigation panel to access the user management section.",
+      "selector": "nav a[href*='users']"
+    },
+    {
+      "number": 2,
+      "title": "Click Add User Button",
+      "description": "Locate and click the 'Add User' or '+ New User' button, typically found in the top-right corner of the user list.",
+      "selector": "button[data-action='add-user'], button.add-user"
+    },
+    {
+      "number": 3,
+      "title": "Fill in User Details",
+      "description": "Enter the required information: First Name, Last Name, Email Address, and Username. Make sure the email is valid and unique.",
+      "selector": "form#user-form, form.user-form"
+    },
+    {
+      "number": 4,
+      "title": "Select User Role",
+      "description": "Choose the appropriate role for the user from the dropdown menu. Common roles include Admin, User, and Viewer.",
+      "selector": "select[name='role'], select#user-role"
+    },
+    {
+      "number": 5,
+      "title": "Set Initial Password",
+      "description": "Enter a temporary password for the user. The system may require a minimum length and complexity. Check the 'Send welcome email' option if available.",
+      "selector": "input[type='password'][name='password']"
+    },
+    {
+      "number": 6,
+      "title": "Review and Submit",
+      "description": "Review all entered information for accuracy. Click the 'Create User' or 'Submit' button to create the new user account.",
+      "selector": "button[type='submit'], button.submit-user"
+    },
+    {
+      "number": 7,
+      "title": "Verify User Creation",
+      "description": "You should see a success message confirming the user was created. The new user should now appear in the user list.",
+      "selector": ".success-message, .alert-success"
+    }
+  ]
+}

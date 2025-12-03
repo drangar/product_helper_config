@@ -1,0 +1,107 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-11-27",
+  "portMappings": {
+    "9334": "IBM Cognos Analytics",
+    "9300": "IBM Cognos Analytics",
+    "11090": "Db2 Intelligence Center",
+    "8080": "Sample Application",
+    "3000": "React Development",
+    "5000": "Flask Application",
+    "8000": "Django Application",
+    "4200": "Angular Application"
+  },
+  "hostnameMappings": {
+    "localhost": "Local Development",
+    "127\\.0\\.0\\.1": "Local Development",
+    ".*\\.ibm\\.com": "IBM Product Demo",
+    ".*\\.example\\.com": "Example Product",
+    ".*\\.demo\\.com": "Demo Product"
+  },
+  "products": [
+    {
+      "name": "IBM Cognos Analytics",
+      "description": "IBM Cognos Analytics https environment",
+      "defaultPort": "9334",
+      "icon": "🟢"
+    },
+    {
+      "name": "IBM Cognos Analytics",
+      "description": "IBM Cognos Analytics http environment",
+      "defaultPort": "9300",
+      "icon": "🔷"
+    },
+    {
+      "name": "Db2 Intelligence Center",
+      "description": "IBM Db2 Intelligence Center for database management",
+      "defaultPort": "11090",
+      "icon": "🗄️"
+    },
+    {
+      "name": "IBM Watson Studio",
+      "description": "AI and machine learning platform for data scientists",
+      "defaultPort": "8080",
+      "icon": "🤖"
+    },
+    {
+      "name": "IBM Cloud Pak for Data",
+      "description": "Unified data and AI platform",
+      "defaultPort": "8080",
+      "icon": "☁️"
+    },
+    {
+      "name": "IBM App Connect",
+      "description": "Integration platform for connecting applications",
+      "defaultPort": "3000",
+      "icon": "🔗"
+    },
+    {
+      "name": "IBM API Connect",
+      "description": "API management and gateway solution",
+      "defaultPort": "5000",
+      "icon": "🌐"
+    },
+    {
+      "name": "IBM MQ",
+      "description": "Enterprise messaging middleware",
+      "defaultPort": "8000",
+      "icon": "📨"
+    },
+    {
+      "name": "IBM DataStage",
+      "description": "ETL and data integration tool",
+      "defaultPort": "4200",
+      "icon": "🔄"
+    },
+    {
+      "name": "IBM InfoSphere",
+      "description": "Data governance and quality management",
+      "defaultPort": "8080",
+      "icon": "📊"
+    },
+    {
+      "name": "IBM Sterling",
+      "description": "Supply chain management solution",
+      "defaultPort": "3000",
+      "icon": "📦"
+    },
+    {
+      "name": "IBM Maximo",
+      "description": "Asset management and maintenance platform",
+      "defaultPort": "5000",
+      "icon": "🏭"
+    },
+    {
+      "name": "IBM Security QRadar",
+      "description": "Security information and event management",
+      "defaultPort": "8000",
+      "icon": "🔒"
+    },
+    {
+      "name": "IBM Guardium",
+      "description": "Data security and protection platform",
+      "defaultPort": "4200",
+      "icon": "🛡️"
+    }
+  ]
+}

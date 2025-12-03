@@ -1,0 +1,8 @@
+{
+  "product": "Db2 Intelligence Center",
+  "useCases": [
+    "run-sql-query.json",
+    "create-connection.json",
+    "analyze-performance.json"
+  ]
+}

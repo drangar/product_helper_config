@@ -1,0 +1,45 @@
+{
+  "id": "create-connection",
+  "name": "Create Database Connection",
+  "description": "Set up a new database connection in Db2 Intelligence Center",
+  "product": "Db2 Intelligence Center",
+  "version": "1.0.0",
+  "steps": [
+    {
+      "number": 1,
+      "title": "Open Connections Page",
+      "description": "Navigate to the Connections section by clicking on 'Connections' in the main menu or settings area.",
+      "selector": "a[href*='connections'], button[aria-label*='Connections']"
+    },
+    {
+      "number": 2,
+      "title": "Click Add Connection",
+      "description": "Click the 'Add Connection' or '+ New Connection' button to start creating a new database connection.",
+      "selector": "button.add-connection, button[title*='Add'], button[title*='New Connection']"
+    },
+    {
+      "number": 3,
+      "title": "Enter Connection Details",
+      "description": "Fill in the required connection information: Connection Name, Hostname/IP Address, Port Number, Database Name, and Authentication Type.",
+      "selector": "form.connection-form, .connection-details"
+    },
+    {
+      "number": 4,
+      "title": "Provide Credentials",
+      "description": "Enter your database username and password. You can optionally save these credentials for future use.",
+      "selector": "input[name='username'], input[name='password']"
+    },
+    {
+      "number": 5,
+      "title": "Test Connection",
+      "description": "Click the 'Test Connection' button to verify that the connection details are correct and the database is accessible.",
+      "selector": "button.test-connection, button[title*='Test']"
+    },
+    {
+      "number": 6,
+      "title": "Save Connection",
+      "description": "Once the connection test is successful, click 'Save' or 'Create' to save the connection. It will now appear in your connections list.",
+      "selector": "button[type='submit'], button.save-connection"
+    }
+  ]
+}

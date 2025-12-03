@@ -1,0 +1,39 @@
+{
+  "id": "configure-settings",
+  "name": "Configure System Settings",
+  "description": "Guide to configure basic system settings and preferences",
+  "product": "IBM Product Demo",
+  "version": "1.0.0",
+  "steps": [
+    {
+      "number": 1,
+      "title": "Open Settings Menu",
+      "description": "Click on the gear icon or 'Settings' option in the top navigation bar or user menu.",
+      "selector": "button[aria-label='Settings'], a[href*='settings']"
+    },
+    {
+      "number": 2,
+      "title": "Navigate to General Settings",
+      "description": "Select 'General' or 'System Settings' from the settings sidebar to access basic configuration options.",
+      "selector": ".settings-nav a[href*='general']"
+    },
+    {
+      "number": 3,
+      "title": "Update Organization Details",
+      "description": "Enter or update your organization name, timezone, and default language preferences.",
+      "selector": "form.general-settings"
+    },
+    {
+      "number": 4,
+      "title": "Configure Notification Preferences",
+      "description": "Choose which types of notifications you want to receive via email, in-app, or push notifications.",
+      "selector": ".notification-settings"
+    },
+    {
+      "number": 5,
+      "title": "Save Changes",
+      "description": "Click the 'Save' or 'Apply Changes' button at the bottom of the page to save your configuration.",
+      "selector": "button[type='submit'].save-settings"
+    }
+  ]
+}

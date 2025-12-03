@@ -1,0 +1,45 @@
+{
+  "id": "schedule-backup",
+  "name": "Schedule Automated Backup",
+  "description": "Set up automated backups to protect your data",
+  "product": "IBM Product Demo",
+  "version": "1.0.0",
+  "steps": [
+    {
+      "number": 1,
+      "title": "Open Backup Settings",
+      "description": "Navigate to the system settings and select the Backup option.",
+      "selector": "nav a[href*='settings'] .backup-link"
+    },
+    {
+      "number": 2,
+      "title": "Create New Schedule",
+      "description": "Click the 'New Schedule' button to create a new backup schedule.",
+      "selector": "button.new-schedule"
+    },
+    {
+      "number": 3,
+      "title": "Set Frequency",
+      "description": "Choose how often backups should run (daily, weekly, monthly).",
+      "selector": "select[name='frequency']"
+    },
+    {
+      "number": 4,
+      "title": "Select Backup Time",
+      "description": "Pick a time when system usage is typically low for the backup to run.",
+      "selector": "input[type='time'][name='backup-time']"
+    },
+    {
+      "number": 5,
+      "title": "Choose Backup Location",
+      "description": "Specify where the backup files should be stored.",
+      "selector": "input[name='backup-path']"
+    },
+    {
+      "number": 6,
+      "title": "Enable Schedule",
+      "description": "Toggle the schedule to active and save your settings.",
+      "selector": "button.save-schedule"
+    }
+  ]
+}

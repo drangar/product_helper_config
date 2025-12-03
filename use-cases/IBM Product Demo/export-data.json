@@ -1,0 +1,39 @@
+{
+  "id": "export-data",
+  "name": "Export Data to CSV",
+  "description": "Learn how to export system data to CSV format for external analysis",
+  "product": "IBM Product Demo",
+  "version": "1.0.0",
+  "steps": [
+    {
+      "number": 1,
+      "title": "Navigate to Data View",
+      "description": "Go to the data section where you want to export information from.",
+      "selector": "nav a[href*='data']"
+    },
+    {
+      "number": 2,
+      "title": "Apply Filters",
+      "description": "Set any filters or date ranges to narrow down the data you want to export.",
+      "selector": ".filter-panel"
+    },
+    {
+      "number": 3,
+      "title": "Click Export Button",
+      "description": "Locate and click the Export or Download button, usually found in the toolbar.",
+      "selector": "button[data-action='export']"
+    },
+    {
+      "number": 4,
+      "title": "Select CSV Format",
+      "description": "Choose CSV as the export format from the available options.",
+      "selector": "select[name='format'] option[value='csv']"
+    },
+    {
+      "number": 5,
+      "title": "Download File",
+      "description": "Click the Download button to save the CSV file to your computer.",
+      "selector": "button.download-btn"
+    }
+  ]
+}

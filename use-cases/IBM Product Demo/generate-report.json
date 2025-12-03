@@ -1,0 +1,45 @@
+{
+  "id": "generate-report",
+  "name": "Generate Analytics Report",
+  "description": "Create and export a custom analytics report",
+  "product": "IBM Product Demo",
+  "version": "1.0.0",
+  "steps": [
+    {
+      "number": 1,
+      "title": "Access Reports Section",
+      "description": "Navigate to the 'Reports' or 'Analytics' section from the main menu.",
+      "selector": "nav a[href*='reports'], nav a[href*='analytics']"
+    },
+    {
+      "number": 2,
+      "title": "Select Report Type",
+      "description": "Choose the type of report you want to generate (e.g., User Activity, Performance Metrics, Usage Statistics).",
+      "selector": ".report-types, select[name='report-type']"
+    },
+    {
+      "number": 3,
+      "title": "Set Date Range",
+      "description": "Select the start and end dates for the report data. You can use preset ranges like 'Last 7 days' or 'Last month'.",
+      "selector": ".date-range-picker"
+    },
+    {
+      "number": 4,
+      "title": "Configure Filters",
+      "description": "Apply any additional filters such as user groups, departments, or specific metrics you want to include.",
+      "selector": ".report-filters"
+    },
+    {
+      "number": 5,
+      "title": "Preview Report",
+      "description": "Click 'Preview' to see a sample of the report data before generating the full report.",
+      "selector": "button.preview-report"
+    },
+    {
+      "number": 6,
+      "title": "Generate and Export",
+      "description": "Click 'Generate Report' and choose your preferred export format (PDF, Excel, CSV). The report will be downloaded to your device.",
+      "selector": "button.generate-report"
+    }
+  ]
+}

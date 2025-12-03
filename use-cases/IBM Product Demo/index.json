@@ -1,0 +1,15 @@
+{
+  "product": "IBM Product Demo",
+  "useCases": [
+    "create-user.json",
+    "configure-settings.json",
+    "generate-report.json",
+    "manage-permissions.json",
+    "export-data.json",
+    "schedule-backup.json",
+    "create-dashboard.json",
+    "setup-notifications.json",
+    "import-data.json",
+    "audit-logs.json"
+  ]
+}

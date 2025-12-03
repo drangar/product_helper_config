@@ -1,0 +1,45 @@
+{
+  "id": "create-dashboard",
+  "name": "Create Custom Dashboard",
+  "description": "Build a personalized dashboard with widgets and metrics",
+  "product": "IBM Product Demo",
+  "version": "1.0.0",
+  "steps": [
+    {
+      "number": 1,
+      "title": "Access Dashboard Builder",
+      "description": "Click on the Dashboards menu and select 'Create New Dashboard'.",
+      "selector": "nav a[href*='dashboards']"
+    },
+    {
+      "number": 2,
+      "title": "Name Your Dashboard",
+      "description": "Enter a descriptive name for your dashboard.",
+      "selector": "input[name='dashboard-name']"
+    },
+    {
+      "number": 3,
+      "title": "Add Widgets",
+      "description": "Click the 'Add Widget' button and select from available widget types.",
+      "selector": "button.add-widget"
+    },
+    {
+      "number": 4,
+      "title": "Configure Widget Settings",
+      "description": "Set up each widget with the appropriate data sources and display options.",
+      "selector": ".widget-config-panel"
+    },
+    {
+      "number": 5,
+      "title": "Arrange Layout",
+      "description": "Drag and drop widgets to arrange them in your preferred layout.",
+      "selector": ".dashboard-grid"
+    },
+    {
+      "number": 6,
+      "title": "Save Dashboard",
+      "description": "Click Save to store your dashboard configuration.",
+      "selector": "button.save-dashboard"
+    }
+  ]
+}

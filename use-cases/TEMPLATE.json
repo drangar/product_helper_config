@@ -1,0 +1,27 @@
+{
+  "id": "unique-use-case-id",
+  "name": "Use Case Display Name",
+  "description": "Brief description of what this use case accomplishes",
+  "product": "Product Name (must match products.json)",
+  "version": "1.0.0",
+  "steps": [
+    {
+      "number": 1,
+      "title": "First Step Title",
+      "description": "Detailed instructions for what the user should do in this step. Be clear and concise.",
+      "selector": "button.example-class"
+    },
+    {
+      "number": 2,
+      "title": "Second Step Title",
+      "description": "More detailed instructions. You can reference specific UI elements, keyboard shortcuts, or expected outcomes.",
+      "selector": "#element-id"
+    },
+    {
+      "number": 3,
+      "title": "Third Step Title",
+      "description": "Continue with clear, actionable instructions.",
+      "selector": "form input[name='field-name']"
+    }
+  ]
+}

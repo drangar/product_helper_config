@@ -1,0 +1,39 @@
+{
+  "id": "run-sql-query",
+  "name": "Run SQL Query",
+  "description": "Execute a SQL query in the SQL Workbench",
+  "product": "Db2 Intelligence Center",
+  "version": "1.0.0",
+  "steps": [
+    {
+      "number": 1,
+      "title": "Navigate to SQL Workbench",
+      "description": "Click on 'SQL' in the left navigation menu, then select 'Workbench' to access the SQL editor.",
+      "selector": "a[href*='sql/workbench']"
+    },
+    {
+      "number": 2,
+      "title": "Select Database Connection",
+      "description": "Click the 'Select databases' button to choose which databases you want to work with. The button shows the number of currently selected databases.",
+      "selector": "button[data-testid='object-tree-refresh-button']"
+    },
+    {
+      "number": 3,
+      "title": "Write Your SQL Query",
+      "description": "Type or paste your SQL query in the editor. For example: SELECT * FROM SYSCAT.TABLES FETCH FIRST 10 ROWS ONLY",
+      "selector": "div.textviewScroll"
+    },
+    {
+      "number": 4,
+      "title": "Execute the Query",
+      "description": "Click the 'Run All' (play icon ▶) to execute your SQL query.",
+      "selector": "button[data-testid='runSQL-runDropDown-button-runAll']"
+    },
+    {
+      "number": 5,
+      "title": "View Results",
+      "description": "The query results will appear in the results panel below the editor. You can view the data in table format, export results, or see execution statistics.",
+      "selector": "div[class*='ResultDetailTabs-resultSetDiv']"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "analyze-performance",
+  "name": "Analyze Query Performance",
+  "description": "Use performance analysis tools to optimize SQL queries",
+  "product": "Db2 Intelligence Center",
+  "version": "1.0.0",
+  "steps": [
+    {
+      "number": 1,
+      "title": "Navigate to Performance Tools",
+      "description": "Review the various charts and graphs to monitor you database performance.",
+      "selector": "button:has(svg[description='Monitor'])"
+    },
+    {
+      "number": 2,
+      "title": "Filter and select workload to Analyze",
+      "description": "Filter based on timeline to review workload over time (Suggest: Filter time range last 6 hours).",
+      "selector": "button[title='Filter']"
+    },
+    {
+      "number": 3,
+      "title": "Select a query from the Individual Executions tab (Click edit to check the individual executions option)",
+      "description": "Choose a query from your recent queries (found in Individual Executions tab) to analyze for performance.",
+      "selector": "button:has(.cds--tabs__nav-item-secondary-label[title='Statement'])"
+    },
+    {
+      "number": 4,
+      "title": "Run Explain Plan",
+      "description": "Click 'Explain' or 'Analyze' to generate an execution plan. This shows how the database will execute your query.",
+      "selector": "button.explain-query, button[title*='Explain']"
+    },
+    {
+      "number": 5,
+      "title": "Review Execution Plan",
+      "description": "Examine the visual execution plan. Look for table scans, join operations, and index usage. Red or yellow indicators typically show areas for optimization.",
+      "selector": ".execution-plan, .query-plan-viewer"
+    },
+    {
+      "number": 6,
+      "title": "Check Performance Metrics",
+      "description": "Review key metrics like estimated cost, rows processed, execution time, and resource usage. Compare these with your performance requirements.",
+      "selector": ".performance-metrics, .query-statistics"
+    },
+    {
+      "number": 7,
+      "title": "Apply Recommendations",
+      "description": "If the tool provides optimization recommendations (like adding indexes or rewriting queries), review and apply them. Re-run the explain plan to verify improvements.",
+      "selector": ".recommendations, .optimization-suggestions"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "audit-logs",
+  "name": "View Audit Logs",
+  "description": "Access and review system audit logs for security and compliance",
+  "product": "IBM Product Demo",
+  "version": "1.0.0",
+  "steps": [
+    {
+      "number": 1,
+      "title": "Access Audit Section",
+      "description": "Navigate to the Administration menu and select Audit Logs.",
+      "selector": "nav a[href*='audit']"
+    },
+    {
+      "number": 2,
+      "title": "Set Date Range",
+      "description": "Select the start and end dates for the logs you want to view.",
+      "selector": ".date-range-picker"
+    },
+    {
+      "number": 3,
+      "title": "Filter by User",
+      "description": "Optionally filter logs by specific user or user group.",
+      "selector": "select[name='user-filter']"
+    },
+    {
+      "number": 4,
+      "title": "Filter by Action Type",
+      "description": "Select specific action types to narrow down the results.",
+      "selector": ".action-type-filters"
+    },
+    {
+      "number": 5,
+      "title": "View Log Details",
+      "description": "Click on any log entry to see detailed information about that event.",
+      "selector": ".log-entry"
+    },
+    {
+      "number": 6,
+      "title": "Export Logs",
+      "description": "Download the filtered logs for external analysis or archiving.",
+      "selector": "button.export-logs"
+    }
+  ]
+}
