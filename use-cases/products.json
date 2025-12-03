@@ -33,7 +33,7 @@
     },
     {
       "name": "Db2 Intelligence Center",
-      "description": "IBM Db2 Intelligence Center for database management",
+      "description": "IBM Db2 Intelligence Center for database management. DR says",
       "defaultPort": "11090",
       "icon": "🗄️"
     },
