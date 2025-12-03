@@ -8,7 +8,7 @@
     {
       "number": 1,
       "title": "Navigate to SQL Workbench",
-      "description": "Click on 'SQL' in the left navigation menu, then select 'Workbench' to access the SQL editor.",
+      "description": "Click on 'SQL' in the left navigation menu, then select 'Workbench' to access the SQL editor.XXX",
       "selector": "a[href*='sql/workbench']"
     },
     {
@@ -33,12 +33,6 @@
       "number": 5,
       "title": "View Results",
       "description": "The query results will appear in the results panel below the editor. You can view the data in table format, export results, or see execution statistics.",
-      "selector": "div[class*='ResultDetailTabs-resultSetDiv']"
-    },
-    {
-      "number": 6,
-      "title": "New step",
-      "description": "New step added.",
       "selector": "div[class*='ResultDetailTabs-resultSetDiv']"
     }
   ]
